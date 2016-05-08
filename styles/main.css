@@ -6,16 +6,19 @@
 
 /* Primary Nav Menu */
 
-//  nav.primary {
-//   width: 100%;
-//   height: 30vh;
+// nav.primary {
+//   width: 20%;
 //   display: flex;
-//   text-align: right;
+//   align-items: center;
 //   justify-content: flex-end;
-//   align-items: flex-end;
-//   border: 1px solid yellow;
-//   background-color: red;
 // }
+
+#nav-box{
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
 
 nav.primary ul,
 nav.primary ul li {
@@ -24,11 +27,6 @@ nav.primary ul li {
 
 nav.primary ul li {
   display: inline-block;
-  float: center;
-  position: relative;
-  color: black;
-  self-align: center;
-  border: 1px solid blue;
 }
 
 nav.primary ul li a {
@@ -119,24 +117,11 @@ nav.primary ul li:hover > a {
   align-items: flex-end;
 }
 
-// #top-left {
-//   width: 50%;
-// }
-
-// #top-right {
-//   width: 50%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: flex-end;
-// }
-
 #top-text-container {
   text-align: center;
-  //display: inline-block;
-  margin-left: 52%;
-  //width: 22%;
-  background-color: black;
+  background-color: hsl(210, 100%, 50%);
   opacity: 0.5;
+  margin-left: 60%
 }
 
 #name {
@@ -144,22 +129,22 @@ nav.primary ul li:hover > a {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-  font-size: 300%;
-  padding-left: 0;
-  padding-right: 0;
+  font-size: 350%;
 }
 
 #developer {
   font-weight: bold;
   color: white;
-  font-size: 200%;
+  font-size: 220%;
   margin-bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #training {
   font-weight: bold;
   color: white;
-  font-size: 180%;
+  font-size: 200%;
   margin-bottom: 0;
 }
 
