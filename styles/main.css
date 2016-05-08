@@ -333,6 +333,10 @@ a:hover {
   padding-bottom: 30px;
 }
 
+.black-border {
+  border: 1px solid black;
+}
+
 /* +++++++++++++ CSS FOR BLOG HOMEPAGE ++++++++++++++++ */
 
 
